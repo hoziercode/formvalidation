@@ -116,4 +116,5 @@ export const Button = styled.button`
   background: ${theme.colors.buttonColor};
   border-radius: 10px;
   color: white;
+  cursor: pointer;
 `;
