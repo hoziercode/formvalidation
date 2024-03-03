@@ -40,7 +40,7 @@ export const LogoContainer = styled.img`
   left: 5%;
 `;
 
-export const CreateAccountLeftSection = styled.div`
+export const CreateAccountLeftSection = styled.form`
   width: 53%;
   height: 100vh;
   background: ${theme.colors.primary};
