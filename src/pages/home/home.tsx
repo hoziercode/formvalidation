@@ -1,5 +1,5 @@
 import React from "react";
-import { HomeWrapper } from "./home_styles";
+import { HomeWrapper, LogoutButton } from "./home_styles";
 import { CommonText, SpanText } from "../../common/text_styles";
 import { theme } from "../../theme/theme";
 
@@ -17,6 +17,7 @@ const Home: React.FC<HomeProps> = () => {
       <CommonText>
         Email: <SpanText></SpanText>
       </CommonText>
+      <LogoutButton>Logout</LogoutButton>
     </HomeWrapper>
   );
 };
